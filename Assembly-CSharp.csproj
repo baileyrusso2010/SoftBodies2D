@@ -63,7 +63,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\CharacterMovement.cs" />
+    <Compile Include="Assets\CollisionDetection.cs" />
+    <Compile Include="Assets\RigidBody.cs" />
     <Compile Include="Assets\Scripts\Spring.cs" />
+    <Compile Include="Assets\Scripts\SpringyNess.cs" />
     <Reference Include="Unity.XR.Management">
       <HintPath>/Users/baileyrusso/Documents/SoftBodies2D/Library/ScriptAssemblies/Unity.XR.Management.dll</HintPath>
     </Reference>
@@ -75,6 +79,12 @@
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
       <HintPath>/Users/baileyrusso/Documents/SoftBodies2D/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Core.Editor">
+      <HintPath>/Users/baileyrusso/Documents/SoftBodies2D/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Core.Runtime">
+      <HintPath>/Users/baileyrusso/Documents/SoftBodies2D/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>/Users/baileyrusso/Documents/SoftBodies2D/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
@@ -94,11 +104,20 @@
     <Reference Include="Unity.Rider.Editor">
       <HintPath>/Users/baileyrusso/Documents/SoftBodies2D/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary">
+      <HintPath>/Users/baileyrusso/Documents/SoftBodies2D/Library/ScriptAssemblies/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.2D.Sprite.Editor">
       <HintPath>/Users/baileyrusso/Documents/SoftBodies2D/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Tilemap.Editor">
       <HintPath>/Users/baileyrusso/Documents/SoftBodies2D/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ShaderGraph.Editor">
+      <HintPath>/Users/baileyrusso/Documents/SoftBodies2D/Library/ScriptAssemblies/Unity.ShaderGraph.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Core.ShaderLibrary">
+      <HintPath>/Users/baileyrusso/Documents/SoftBodies2D/Library/ScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
       <HintPath>/Users/baileyrusso/Documents/SoftBodies2D/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
